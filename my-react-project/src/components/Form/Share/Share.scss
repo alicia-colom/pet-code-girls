@@ -1,3 +1,5 @@
+@import "../../../stylesheets/core/variables";
+
 .form-share {
   font-family: $fontMain;
   font-size: 18px;
@@ -6,41 +8,41 @@
   border-bottom: 1px solid #d8d8d8;
 }
 
-.share-legend {
-  display: grid;
-  align-items: center;
-  grid-template-columns: 18px 1fr 15.75px;
-  grid-template-rows: 1fr;
-  padding: 10px 0 7px;
+// .share-legend {
+//   display: grid;
+//   align-items: center;
+//   grid-template-columns: 18px 1fr 15.75px;
+//   grid-template-rows: 1fr;
+//   padding: 10px 0 7px;
 
-  &__icon--share {
-    grid-column: 1;
-    grid-row: 1;
-    font-size: 18px;
-    color: $colorBrand01;
-  }
+//   &__icon--share {
+//     grid-column: 1;
+//     grid-row: 1;
+//     font-size: 18px;
+//     color: $colorBrand01;
+//   }
 
-  &__title {
-    text-align: left;
-    grid-column: 2;
-    grid-row: 1;
-    font-family: $fontMain;
-    font-size: 18px;
-    font-weight: 600px;
-    color: $colorBrand08;
-    text-transform: uppercase;
-    padding-left: 10px;
-  }
+//   &__title {
+//     text-align: left;
+//     grid-column: 2;
+//     grid-row: 1;
+//     font-family: $fontMain;
+//     font-size: 18px;
+//     font-weight: 600px;
+//     color: $colorBrand08;
+//     text-transform: uppercase;
+//     padding-left: 10px;
+//   }
 
-  &__icon--arrow {
-    grid-column: 3;
-    grid-row: 1;
-    text-align: right;
-    font-size: 18px;
-    color: $colorBrand08;
-    transition: transform 1s ease;
-  }
-}
+//   &__icon--arrow {
+//     grid-column: 3;
+//     grid-row: 1;
+//     text-align: right;
+//     font-size: 18px;
+//     color: $colorBrand08;
+//     transition: transform 1s ease;
+//   }
+// }
 
 .create-btn {
   display: flex;
@@ -69,36 +71,33 @@
     margin-bottom: 30px;
     cursor: pointer;
 
-    &:hover{
+    &:hover {
       // background-color: #ce5e1e;
       box-shadow: 0 0 10px 0 $colorBrand01 inset, 0 0 10px 4px $colorBrand01;
       box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
       background-color: #fd8642;
-
-     }
+    }
   }
 
-    &__button--clicked {
-      background-color: #d5d5d5;
-      width: 199px;
-      height: 50px;
-      border-radius: 12px;
-      box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.32);
-      border: none;
-      color: $colorPrimaryBackground;
-      text-transform: uppercase;
-      font-weight: 600;
-      padding: 13px 18px;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      font-family: $fontMain;
-      font-size: 18px;
-      margin-bottom: 30px;
-      cursor: pointer;
-    }
-
-    
+  &__button--clicked {
+    background-color: #d5d5d5;
+    width: 199px;
+    height: 50px;
+    border-radius: 12px;
+    box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.32);
+    border: none;
+    color: $colorPrimaryBackground;
+    text-transform: uppercase;
+    font-weight: 600;
+    padding: 13px 18px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: $fontMain;
+    font-size: 18px;
+    margin-bottom: 30px;
+    cursor: pointer;
+  }
 
   &__icon {
     font-size: 22px;

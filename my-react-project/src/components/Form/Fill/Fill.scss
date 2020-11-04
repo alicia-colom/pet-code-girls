@@ -1,57 +1,43 @@
-.cards-form {
-  @media all and (min-width: 768px) {
-    grid-column: 1 / 2;
-    grid-row: 1 / 1;
-    // height: 80vh;
-
-    @media all and (min-width: 768px) {
-      margin-right: 10px;
-    }
-  }
-}
-
-// .form-container {
-
-// }
+@import "../../../stylesheets/core/variables";
 
 .fill {
   margin: 0px 20px 0 20px;
   border-bottom: 1px solid #d8d8d8;
 
-  &__container {
-    display: grid;
-    align-items: center;
-    grid-template-columns: 18px 1fr 15.75px;
-    grid-template-rows: 1fr;
-    padding: 10px 0 7px;
-  }
+  // &__container {
+  //   display: grid;
+  //   align-items: center;
+  //   grid-template-columns: 18px 1fr 15.75px;
+  //   grid-template-rows: 1fr;
+  //   padding: 10px 0 7px;
+  // }
 
-  &__icon {
-    color: $colorBrand01;
-    grid-column: 1;
-    grid-row: 1;
-    font-size: 18px;
-    text-align: left;
-  }
-  &__title {
-    font-family: $fontMain;
-    text-transform: uppercase;
-    font-size: 18px;
-    text-align: left;
-    grid-column: 2;
-    grid-row: 1;
-    font-weight: 600px;
-    color: $colorBrand08;
-    padding-left: 10px;
-  }
-  &__arrow {
-    grid-column: 3;
-    grid-row: 1;
-    text-align: right;
-    font-size: 18px;
-    color: $colorBrand08;
-    transition: transform 1s ease;
-  }
+  // &__icon {
+  //   color: $colorBrand01;
+  //   grid-column: 1;
+  //   grid-row: 1;
+  //   font-size: 18px;
+  //   text-align: left;
+  // }
+  // &__title {
+  //   font-family: $fontMain;
+  //   text-transform: uppercase;
+  //   font-size: 18px;
+  //   text-align: left;
+  //   grid-column: 2;
+  //   grid-row: 1;
+  //   font-weight: 600px;
+  //   color: $colorBrand08;
+  //   padding-left: 10px;
+  // }
+  // &__arrow {
+  //   grid-column: 3;
+  //   grid-row: 1;
+  //   text-align: right;
+  //   font-size: 18px;
+  //   color: $colorBrand08;
+  //   transition: transform 1s ease;
+  // }
 
   .form {
     display: flex;
@@ -118,7 +104,6 @@
     background-repeat: no-repeat;
     background-size: cover;
     border: 1px solid #ccc;
-    background-image: url("https://via.placeholder.com/300x300/cccccc/666666/?text=IMAGE");
   }
   // .profile__image {
   //   width: 300px;
