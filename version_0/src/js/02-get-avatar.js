@@ -52,5 +52,5 @@ function fakeFileClick() {
  * - al botón visible para generar el click automático
  * - al campo oculto para cuando cambie su value
  */
-uploadBtn.addEventListener('click', fakeFileClick);
+uoadBtn.addEventListener('click', fakeFileClick);
 fileField.addEventListener('change', getImage);
