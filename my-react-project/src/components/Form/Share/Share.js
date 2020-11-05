@@ -19,7 +19,7 @@ class Share extends Component {
 					fieldsetIcon="fas fa-share-alt"
 				/>
 
-				<div className="create-btn js-share hidden">
+				<div className="create-btn js-share">
 					<button type="button" className="create-btn__button js-createButton">
 						<i className="far fa-address-card create-btn__icon"></i>
 						Crear tarjeta
