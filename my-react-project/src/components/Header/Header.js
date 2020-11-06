@@ -1,3 +1,4 @@
+/* eslint-disable no-useless-constructor */
 import React, { Component } from "react";
 import logo from "../../images/logoversion2.png";
 import "./Header.scss";
@@ -6,7 +7,7 @@ class Header extends Component {
   constructor(props) {
     super(props);
   }
-
+  
   render() {
     return (
       <header className="cards-header" role="banner">

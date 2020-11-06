@@ -10,14 +10,14 @@ class FormMenu extends Component {
 
 	render() {
 		return (
-			<div className="js-{this.props.fieldsetName}-collapsable">
+			<div className={"js-" + this.props.fieldsetName + "-collapsable"}>
 				<legend className="legend">
-					<i className="{this.props.fieldsetIcon} legend__icon"></i>
+					<i className={this.props.fieldsetIcon + " legend__icon"}></i>
 					<h2 className="legend__title">{this.props.fieldsetTitle}</h2>
 					<img
 						src={menuIcon}
 						alt="Menu"
-						className="js-arrow-{this.props.fieldsetName} legend__arrow arrow-up"
+						className={"js-arrow-" + this.props.fieldsetName + "legend__arrow arrow-up"}
 						aria-label="Desplegar"
 					/>
 				</legend>

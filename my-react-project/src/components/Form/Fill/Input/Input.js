@@ -15,7 +15,7 @@ class Input extends Component {
 					type={this.props.inputType}
 					id={this.props.inputName}
 					name={this.props.inputName}
-					placeholder={this.props.inputPlaceholder}
+					placeholder={"Ej: " + this.props.inputPlaceholder}
 					required
 				/>
 			</div>

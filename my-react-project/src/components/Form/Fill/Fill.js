@@ -24,13 +24,13 @@ class Fill extends Component {
 							inputName="name"
 							inputLabel="Nombre completo"
 							inputType="text"
-							inputPlaceholder="Ej: Frida Kahlo"
+							inputPlaceholder="Frida Kahlo"
 						/>
 						<Input
 							inputName="job"
 							inputLabel="Puesto"
 							inputType="text"
-							inputPlaceholder="Ej: Pintora"
+							inputPlaceholder="Pintora"
 						/>
 
 						<InputImage />
@@ -39,25 +39,25 @@ class Fill extends Component {
 							inputName="email"
 							inputLabel="Email"
 							inputType="email"
-							inputPlaceholder="Ej: frida.Kahlo@gmail.com"
+							inputPlaceholder="frida.Kahlo@gmail.com"
 						/>
 						<Input
 							inputName="phone"
 							inputLabel="Teléfono"
 							inputType="tel"
-							inputPlaceholder="Ej: 666 555 444"
+							inputPlaceholder="666 555 444"
 						/>
 						<Input
 							inputName="linkedin"
 							inputLabel="LinkedIn"
 							inputType="text"
-							inputPlaceholder="Ej: linkedin.com/in/frida-kahlo"
+							inputPlaceholder="linkedin.com/in/frida-kahlo"
 						/>
 						<Input
 							inputName="github"
 							inputLabel="GitHub"
 							inputType="text"
-							inputPlaceholder="Ej: frida-kahlo"
+							inputPlaceholder="frida-kahlo"
 						/>
 					</div>
 				</div>
