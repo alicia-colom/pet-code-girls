@@ -1,1 +1,3 @@
-# project-promo-k-module-03-team-06
+# Pet Code Girls
+
+### Proyecto colaborativo de refactorización de una SPA de código legacy, generadora de tarjetas de visita virtuales. 
